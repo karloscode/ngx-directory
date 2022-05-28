@@ -17,8 +17,8 @@
       <div class="item mb-3">
         <app-blog-item [route]="r" (filterTag)="filterByTag($event)"></app-blog-item>
       </div>
-      <div class="item mb-3" *ngIf="(i+1)%2 == 0">
-        <ng-adsense [adSlot]="AD_SLOT"></ng-adsense>
+      <div class="item mb-3" *ngIf="(i+1)%5 == 0">
+        <ng-adsense *ngIf="AD_SLOT" [adSlot]="AD_SLOT"></ng-adsense>
       </div>
     </ng-container>
   </div>
