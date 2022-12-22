@@ -1,4 +1,4 @@
-# ngx-scully-blog
+# ngx-directory
 
 **ngx-scully-blog** is a simple blog made for developers that is easy to setup, supports SEO, Google Adsense, Google Analytics, Facebook Pixel, and many more.
 
